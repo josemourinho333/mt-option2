@@ -2,10 +2,10 @@
   background-image: 
   linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 100%),
   url('../images/shaking\ hands-min.jpg');
-  background-position: 10% 25%;
-  background-size: 100%;
+  background-position: top;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 90vh;
+  height: 80vh;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -23,8 +23,8 @@
   background-image: 
   linear-gradient(180deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 100%),
   url('../images/businessmen-min.jpg');
-  background-position: 10% 45%;
-  background-size: 100%;
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -36,8 +36,8 @@
   background-image: 
   linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 100%),
   url('../images/climbing\ stairs-min.jpg');
-  background-position: 10% 65%;
-  background-size: 100%;
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 80vh;
   color: #fff;
@@ -59,4 +59,13 @@
   left: 0;
   z-index: -10;
   opacity: 0.5;
+}
+
+@media screen and (max-width: 890px) {
+  .hero > h1,
+  .hero > p,
+  .end > h1,
+  .end > p {
+    width: 80%;
+  }
 }
