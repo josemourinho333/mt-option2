@@ -1,1 +1,62 @@
+.hero {
+  background-image: 
+  linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 100%),
+  url('../images/shaking\ hands-min.jpg');
+  background-position: 10% 25%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 90vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
+.hero > h1,
+.hero > p {
+  width: 40%;
+}
+
+.contact {
+  background-image: 
+  linear-gradient(180deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 100%),
+  url('../images/businessmen-min.jpg');
+  background-position: 10% 45%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.contact > div > h2 {
+  text-shadow: 2px 2px 5px #000;
+}
+
+.end {
+  background-image: 
+  linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 100%),
+  url('../images/climbing\ stairs-min.jpg');
+  background-position: 10% 65%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 80vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.end > h1,
+.end > p {
+  width: 40%;
+}
+
+.quote {
+  position: absolute;
+  top: -15px;
+  left: 0;
+  z-index: -10;
+  opacity: 0.5;
+}
